@@ -1,0 +1,22 @@
+header{
+   background-image: url(./Img/Banner.jpg);
+   background-size:cover;
+   font-style: italic;
+   font: bolder;
+   color: azure;
+   padding: 1.2em;
+   font-size: 1.5em;
+   text-align: center;
+   background-attachment:fixed;
+   background-repeat: repeat-x;
+   
+}
+nav{
+    background-color:cadetblue;
+    text-align:left;
+    background-size:auto;
+}
+nav a{
+    color: azure;
+    font-size: 1.2em;
+}

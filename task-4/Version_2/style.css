@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-image: url(./Img_T2/photo01.jpg);
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+header:hover{
+    background-image: url(./Img_T2/photo02.jpg);
+}
+header figure{
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+    align-self: flex-end;
+}
+nav a{
+    text-decoration: none;
+    background-color:darkcyan;
+    color:yellow;
+    text-shadow: 3px 2px 2px orange;
+    padding: 5px 20px;
+    margin: 1px;
+    font-size: 20px;
+    font-size: medium;
+}
+.menu{
+    background-color: orange;
+    padding: 8px 25px 8px;
+    color: darkcyan;
+    text-shadow: 3px 2px 2px yellow;
+}
+main{
+    min-height: 60vh;;
+}
+body{
+    background-image: url(./Img_T2/Fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+/* body,html {
+  padding:0;
+  margin:0;
+  height:100vh;
+} */
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 0px 0px; 
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+}
+section>h2{
+    background-color:darkcyan;
+    filter: opacity(90%);
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0.2em;
+    color: azure;
+    text-shadow: 5px 5px 8px black;
+}
+section>div{
+    display: flex;
+    flex-direction:row;
+}
+section>p{
+    background-color:orange;
+    filter: opacity(90%);
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    padding: 1px;
+}
+article{
+    background-color: darkcyan;
+    border-radius: 15px;
+    padding: 5px 20px 15px;
+    margin: 5px 4px; 
+    border: 4px solid white;
+    filter: opacity(95%);
+    min-width: 30%;
+}
+article>h2,h3{
+    color: yellow;
+    margin: 5px 10px;
+    text-shadow: 2.5px 2px 4px orange;
+}
+article>p{
+    color: azure;
+    text-shadow: 2px 2px 3px black;
+    font-size: 1.2rem;
+}
+section i{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 1.2rem;
+}
+#email{
+    text-decoration: none;
+    color: cyan;
+    text-shadow: 5px 2px 8px black;
+}
+.list{
+    color: azure;
+    text-shadow: 2px 2px 3px black;
+    font-size: 1rem;
+    margin: 0px 30px;
+}
+ol,li{
+    color: azure;
+    text-shadow: 2px 2px 3px black;
+    font-size: 1rem;
+    margin: 0px 5px;
+}
+.text{
+    margin: 0px 20px;
+}
+ul{
+    margin: 0px 20px;
+    list-style-type: circle;
+}
+table,th,td{
+    border: 4.3px solid azure;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5em 2.8em;
+    filter: opacity(96%);
+    margin: 10px 0px;
+    font-size: 1.1em;
+    font-size: medium;
+}
+#Tabla{
+    display: flex;
+    justify-content: center;
+}
+thead{
+    color: azure;
+    text-shadow: 3px 1px 4px black;
+    font-size: 1.1rem;
+    background-color: darkcyan;
+}
+.dia{
+    background-color: orange;
+}
+.cont{
+    background-color: aquamarine;
+}
+#Hockey{
+    width: 500px;
+}
+aside {
+    background-color: aquamarine;
+    filter: opacity(90%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+    color:bisque;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 3px black;
+    height: 6vh;
+}
+.social{
+    width: 40px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 4vh;
+    text-align: center;
+    font-size: large;
+}
+.location{
+    display: inline-block;
+    min-width: 3vh;
+}
+.maps{
+    min-height: 30vh;
+}
+#content-maps{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+form{
+    background-color:cornflowerblue;
+    padding: 10px 50px;
+    color: azure;
+    text-shadow: 3px 1px 4px black;
+}
+@media only screen and (max-width: 320px){
+    header{
+        height: 40vh;
+    }
+    header figure{
+        height: 8vh;
+    }
+    nav{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        flex-direction:row;
+        align-items:baseline;
+    }
+    nav a{
+        font-size: small;
+        margin: 5px;
+        padding: 5px 6px;
+    }
+    section>h2{
+        font-size:large;
+    }
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contenedor2{
+        font-size: small;
+    }
+    article>p{
+        font-size: small;
+    }
+    #Hockey{
+        width: 30vh ;
+        height: 20vh ;
+    }
+    section p{
+        font-size: small;
+    }
+    section i{
+        font-size: small;
+    }
+    #Tabla{
+        display: flex;
+        flex-direction: column;
+    }
+    table,th,td{
+        font-size: small;
+        margin: 0px 0px ;
+        padding: 5px;
+    }
+    .maps{
+        max-width: 40vh;
+    }
+    #content-maps{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        font-size: small;
+        align-items: center;
+    }
+    .list{
+        font-size: small;
+    }
+    ol,li{
+        font-size: small;
+    }
+    form{
+        padding: 0px;
+    }
+    footer{
+        height: 5vh;
+        font-size: small;
+    }
+    aside{
+        font-size: small;
+        height: 8vh;
+    }
+    .social{
+        height: 5vh;
+        width: 5vh;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    header{
+        height: 20vh;
+    }
+    header figure{
+        min-height: 10vh;
+    }
+    nav{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        flex-direction:row;
+        align-items:baseline;
+    }
+    nav a{
+        font-size: small;
+        margin: 2px;
+        padding: 5px 5px;
+    }
+    section>h2{
+        font-size:large;
+    }
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contenedor2{
+        font-size: small;
+    }
+    article>p{
+        font-size: small;
+    }
+    #Hockey{
+        width: 30vh ;
+        height: 20vh ;
+    }
+    section p{
+        font-size: small;
+    }
+    section i{
+        font-size: small;
+    }
+    #Tabla{
+        display: flex;
+        flex-direction: column;
+    }
+    table,th,td{
+        font-size: small;
+        margin: 0px 0px ;
+        padding: 5px;
+    }
+    .maps{
+        max-width: 32vh;
+    }
+    #content-maps{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        font-size: small;
+        align-items: center;
+    }
+    .list{
+        font-size: small;
+    }
+    ol,li{
+        font-size: small;
+    }
+    form{
+        padding: 0px;
+    }
+    footer{
+        height: 4vh;
+        font-size: small;
+    }
+    aside{
+        font-size: small;
+        height: 8vh;
+    }
+    .social{
+        height: 5vh;
+        width: 5vh;
+    }
+}
+
+    
